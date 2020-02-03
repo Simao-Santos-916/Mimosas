@@ -1,0 +1,177 @@
+
+/* PCs from 1024 to 1200px*/
+@media only screen and (max-width: 1200px) {
+    .front {
+        width: 100%;
+        padding: 0 2%;
+        font-size: 90%;
+    }
+    
+    .row {padding: 0 2%;}
+    
+    .main-nav { 
+        display: block; 
+        font-size: 80%;
+    }
+    
+    .section-especialidades,
+    .section-marcacoes {
+        font-size: 85%;
+    }
+    
+}
+
+/* PC portrait mode from 768 to 1023px*/
+@media only screen and (max-width: 1023px) {
+    body {font-size: 18px;}
+    section{padding: 60px 0;}
+    .main-nav { display: none; }
+    h1 {font-size: 160%;}
+    h2 {font-size: 140%;}
+    h3 {font-size: 110%;}
+    
+    .section-who {
+        font-size: 90%;
+    }
+    
+
+    
+    .map-box {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+
+    .map {
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+
+    .form-box {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 30px 0;
+    }
+    
+    .mobile-nav-icon { display: inline-block; }
+    
+    .main-nav {
+        display: none;
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link, 
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 5px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 18px 0; }
+    .sticky .mobile-nav-icon i { color: #555; }
+    
+    
+    
+    .steps-box:first-child {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .btn { font-size: 70%; }
+    .icon-big {
+        font-size: 250%;
+        text-align: center;
+    }
+    .btn-app img {    
+        height: 30px;
+        width: auto;
+    }
+    
+    .city-image {
+        width: 60%;
+        height: auto;
+        margin-bottom: 10px;
+        margin-left: 20%;
+    }
+
+    .city-feature {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    
+    .section-cities h3 { text-align: center; }
+    
+    footer { 
+        font-size: 50%;
+        padding: 30px;
+    }
+
+    footer p { margin-top: 10px; }
+
+    .social-links li,
+    .footer-nav li { margin-top: 0; }
+    
+    .contact-form {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 65%;
+    }
+    
+    .convencoes img {
+        width: 150px;
+    }
+    
+
+}
+
+/* Small IPad from 480 to 767px*/
+@media only screen and (max-width: 767px) {
+     body {font-size: 16px;}
+    section { padding: 30px 0; }
+    .row,
+    .front {padding: 0 4%; }
+    .col {width: 100%;}
+    .main-nav { display: none; }
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    h1 {font-size: 160%;}
+    h2 {font-size: 140%;}
+    h3 {
+        font-size: 120%;
+        padding-top: 20px;
+            
+    }
+    
+    .convencoes img {
+        width: 50%;
+        margin-left: 25%;
+        padding-top: 10px;
+    }
+    
+    .map {height: 100px;}
+    
+    .contact-form {font-size: 110%;}
+    
+}
+
+/* Small phone from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    
+}
+
+
